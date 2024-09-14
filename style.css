@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.br{border: 3px solid red;}
+.bk{border: 3px solid black;}
+.bb{border: 3px solid blue;}
+.bg{border: 3px solid green;}
+.by{border: 3px solid gold;}
+.bm{border: 3px solid magenta;}
+
+.first-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(adventurous-couple-jump-into-lake-product-5e09f02fd5b32.[1600].jpeg);
+    background-size: cover;
+
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px 120px;
+
+}
+.collapse{
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+   
+}
+.navbar-nav{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav-item{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.nav-link{
+    color: white;
+}
+
+.first{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.223);
+}
+.first span{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.first h1{
+    font-size: 75px;
+    color: white;
+}
+.first p{
+    color: white;
+    text-align: center;
+}
+.first button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* --------------------------------second section------------ */
+
+.second-section{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: rgb(75, 81, 82); */
+}
+.second-section h1{
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.second{
+    height: auto;
+    border-radius: 20px;
+    background-color: azure;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: beige;
+    
+
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* ----------------------------third section--------------------------------------- */
+
+.third-section{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 205, 207);
+}
+.third{
+    /* border: 2px solid red; */
+}
+.card1{
+    /* border: 2px solid green; */
+    
+
+}
+.card1 a{
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+    
+}
+.card1 a:hover{
+    color: white;
+}
+
+@media only screen and (max-width:600px){
+.navbar{
+    
+    padding: 20px;
+}
+
+
+.first{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.first span{
+    font-size: 18px;
+}
+.first h1{
+    font-size: 45px;
+}
+.second-section h1{
+    font-size: 35px;
+}
+
+}
+
+@media only screen and (max-width:431px){
+
+    .first-section{
+        height: auto;
+    }
+
+    .first h1{
+        font-size: 42px;
+    }
+    .second-section h1{
+        font-size: 30px;
+    }
+}
+
